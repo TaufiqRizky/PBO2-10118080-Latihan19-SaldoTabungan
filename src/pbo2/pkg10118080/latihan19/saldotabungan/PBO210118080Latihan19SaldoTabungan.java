@@ -32,7 +32,7 @@ public class PBO210118080Latihan19SaldoTabungan {
         for (int i = 1; i < 7; i++) {
             saldo=saldo+(saldo*0.15);
             hsl = "Rp. " + df.format(saldo);
-            System.out.println("Saldo di bilan ke-"+i+" "+hsl);
+            System.out.println("Saldo di bulan ke-"+i+" "+hsl);
             
         }
     }
